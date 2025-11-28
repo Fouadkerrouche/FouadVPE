@@ -69,6 +69,8 @@ class VideoCapture:
         
         
         frame = cv2.resize(frame, (largeur, hauteur))
+
+        frame = cv2.flip(frame , 1)
         
         
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
