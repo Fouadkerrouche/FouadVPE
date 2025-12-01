@@ -1,12 +1,6 @@
 import numpy as np
 
 class Camera:
-    """
-    Formule de projection 
-        u = u₀ + f·(x/z)
-        v = v₀ + f·(y/z)
-    """
-    
     def __init__(self, largeur, hauteur, focale):
        
         self.largeur = largeur

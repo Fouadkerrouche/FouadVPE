@@ -1,5 +1,3 @@
-
-
 import pygame
 import numpy as np
 
@@ -42,7 +40,7 @@ class Cube:
         self.rotation_z = 0.0
         
         
-        self.couleur = (0, 255, 255)  # Cyan
+        self.couleur = (0, 255, 255)  
     
     def positionner(self, x, y, z):
        
